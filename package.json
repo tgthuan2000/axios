@@ -1,6 +1,6 @@
 {
   "name": "@tgthuan/axios",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -23,6 +23,8 @@
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/lodash": "^4.17.0",
+    "axios": "^1.6.8",
+    "lodash": "^4.17.21",
     "rollup": "^4.17.0",
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
@@ -31,7 +33,6 @@
     "typescript": "^5.4.5"
   },
   "peerDependencies": {
-    "axios": "^1.6.8",
-    "lodash": "^4.17.21"
+    "axios": ">=1"
   }
 }

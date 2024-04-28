@@ -5,7 +5,7 @@ import type {
   InternalAxiosRequestConfig,
 } from "axios";
 import axios from "axios";
-import { get } from "lodash";
+import get from "lodash/get";
 import {
   BAD_REQUEST_CODE,
   JSON_TYPE,
